@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    flex-direction: column;  /* 縦方向に並べる */
+    justify-content: center;  /* 横方向の中央 */
+    align-items: center;      /* 縦方向の中央 */
+    height: 100vh;            /* 高さを画面いっぱいに */
+    margin: 0;                /* デフォルトのマージンを無くす */
+}
+
+button {
+    font-size: 100px;
+    width: 1000px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.number {
+    display: block;  /* 改行を有効にする */
+    margin-top: 20px; /* ボタンとpタグの間にスペースを追加 */
+    font-size: 150px;
+}
+
+.counter {
+    margin-top: 20px; /* ボタンとpタグの間にスペースを追加 */
+    font-size: 100px;
+}
+
+.p {
+    margin-top: 20px; /* ボタンとpタグの間にスペースを追加 */
+    font-size: 100px;
+}
+
+html {
+    background-color: rgba(255, 151, 172, 0.692);
+}
