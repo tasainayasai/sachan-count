@@ -5,10 +5,10 @@ document.addEventListener("DOMContentLoaded", () => {
 　const newitem = document.querySelector(".number");
 　const countt = document.querySelector(".counter");
 　const sachi = ["さ","さあ","さあち","さあちゃ","さあちゃん"];
-　const audio = document.querySelector("#myaudio");
 
 　btn.addEventListener("click", () => {
-    　audio.play();
+    　const sound = new Audio("Anime_Motion02-1(Single).mp3");
+    　sound.play();
     　count += 1;
     　if (count <= 5){
         　newitem.textContent=sachi[count -1];
