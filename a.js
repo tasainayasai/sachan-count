@@ -4,7 +4,7 @@ let counter=0;
 const newitem = document.querySelector(".number");
 const countt = document.querySelector(".counter");
 const sachi = ["さ","さあ","さあち","さあちゃ","さあちゃん"];
-const audio = document.querySelector("myaudio");
+const audio = document.querySelector(".myaudio");
 
 btn.addEventListener("click", () => {
     audio.play();
